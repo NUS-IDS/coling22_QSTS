@@ -11,9 +11,9 @@ We used Stanza (version 1.2) for obtaining dependency parses and NER information
 
 The pkl dump of subsetted embeddings (using wordlist from Wiki) from GloVE can be created as follows:
 
---Use the make_embeddings function in  code/glove_similarity.py
-with inputs the  original glove embeddings fromhttps://nlp.stanford.edu/data/glove.840B.300d.zip
-and the terms list provided in code/wikiterms_stopwords.txt
+--Use the make_embeddings function in  code/glove_similarity.py with inputs 
+<br> the original glove embeddings fromhttps://nlp.stanford.edu/data/glove.840B.300d.zip
+<br> and the terms list provided in code/wikiterms_stopwords.txt
 
 
 
