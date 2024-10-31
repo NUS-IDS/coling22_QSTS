@@ -9,8 +9,12 @@ See code/predict_T5.py for details on how to use our trained classifier based on
 We used Stanza (version 1.2) for obtaining dependency parses and NER information (https://stanfordnlp.github.io/stanza/)
 
 
-The pkl dump of subsetted embeddings (using wordlist from Wiki) from GloVE can be found here:
-https://www.dropbox.com/s/q3mb4kz00t04v9h/glove_wiki.tgz?dl=0
+The pkl dump of subsetted embeddings (using wordlist from Wiki) from GloVE can be created as follows:
+
+--Use the make_embeddings function in  code/glove_similarity.py
+with inputs the  original glove embeddings fromhttps://nlp.stanford.edu/data/glove.840B.300d.zip
+and the terms list provided in code/wikiterms_stopwords.txt
+
 
 
 
